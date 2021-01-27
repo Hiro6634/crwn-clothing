@@ -20,8 +20,8 @@ class DirectoryMenu extends Component {
                 id: 2
             },
             {
-                title: 'snakers',
-                imageUrl: 'https://i.ibb.co/0jqHpnp/snakers.png',
+                title: 'sneakers',
+                imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
                 id: 3
             },
             {
