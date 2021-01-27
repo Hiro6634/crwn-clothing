@@ -7,16 +7,26 @@
     justify-content: center;
     border: 1px solid black;
     margin: 0 7.5px 15px;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-size: cover;
 }
 
+.background-image:hover{
+    transform: scale(1.1);
+    transition: 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
 .large {
     height: 380px;
 }
 
 .menu-item:hover {
-    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .menu-item:first-child{
@@ -35,6 +45,9 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+    background-color: white;
+    opacity: 70%;
+    position: absolute;
 }
 
 .title {
