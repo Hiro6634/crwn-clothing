@@ -50,7 +50,25 @@ const config = {
       });
 
       return await batch.commit();
-  } 
+  }
+  
+  export const convertCollectionsSnapshotToMap = (collections) => {
+    const trasformedCollection = collections.doc.map(doc => {
+        const{ title, items} =   doc.data();
+
+        return{
+            routeName: encodeURI(title.toLowerCase()),
+            id: doc.id,
+            title,
+            items
+        } 
+    });
+
+    trasformedCollection.reduce((accumulator, collection) => { 
+        accumulator[collection.title.toLowerCase()] = collection;
+        return accumulator; 
+    } ,{});
+  }  
 
   firebase.initializeApp(config);
 
