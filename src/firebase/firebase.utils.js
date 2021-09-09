@@ -53,7 +53,7 @@ const config = {
   }
   
   export const convertCollectionsSnapshotToMap = (collections) => {
-    const trasformedCollection = collections.doc.map(doc => {
+    const transformedCollection = collections.docs.map(doc => {
         const{ title, items} =   doc.data();
 
         return{
@@ -64,7 +64,7 @@ const config = {
         } 
     });
 
-    trasformedCollection.reduce((accumulator, collection) => { 
+    return transformedCollection.reduce((accumulator, collection) => { 
         accumulator[collection.title.toLowerCase()] = collection;
         return accumulator; 
     } ,{});
