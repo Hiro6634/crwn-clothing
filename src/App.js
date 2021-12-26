@@ -39,7 +39,11 @@ class App extends React.Component {
       }
       setCurrentUser(userAuth);
 
+<<<<<<< HEAD
       //addCollectionsAndDocuments('collections',collectionArray);
+=======
+      addCollectionsAndDocuments('collections',collectionArray);
+>>>>>>> 610d54bc64566e328938085dba28cc22705de9bf
     });
   }
 
