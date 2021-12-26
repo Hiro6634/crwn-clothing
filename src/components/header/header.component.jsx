@@ -4,7 +4,6 @@ import { createStructuredSelector } from "reselect";
 
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 
-import './header.styles.scss';
 import { HeaderContainer, LogoContainer, OptionsContainer,  OptionLink } from './header.styles';
 
 import { auth } from "../../firebase/firebase.utils";
