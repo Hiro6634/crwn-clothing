@@ -52,6 +52,21 @@ const config = {
     return await batch.commit();
   }
 
+  export const convertCollectionSnapshotToMap = (collections) => {
+    const trasnformedCollection = collections.docs.map(doc=>{
+      const{title, items} = doc.data();
+
+      return {
+        routeName: encodeURI(title.toLowerCase()),
+        id: doc.id,
+        title,
+        items
+      };
+    });
+
+    console.log(trasnformedCollection);
+  }
+
   export const auth = firebase.auth();
   export const firestore = firebase.firestore();
 
