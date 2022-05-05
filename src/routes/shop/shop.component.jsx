@@ -1,9 +1,13 @@
-import SOHP_DATA from '../../shop-data.json';
+import { useContext } from 'react';
+
+import { ProductContext } from '../../context/products.context';
 
 const Shop = () => {
+    const {products} = useContext(ProductContext);
+
     return (
         <div>
-            {SOHP_DATA.map(({name, id}) => (
+            {products.map(({name, id}) => (
                 <div key={id}>
                     <h1>{name}</h1>                    
                 </div>
