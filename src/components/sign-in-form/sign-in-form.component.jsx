@@ -1,7 +1,6 @@
-import { useState, useContext } from 'react';
+import { useState } from 'react';
 
 import { 
-    createUserDocuemntFromAuth, 
     signInWithGooglePopup,
     signInAuthWithEmailAndPassword
 } from '../../utils/firebase/firebase.utils';
@@ -27,12 +26,8 @@ const SignInForm = () => {
         event.preventDefault();
 
         try{
-            const {user} = await signInAuthWithEmailAndPassword(
-                email,
-                password
-            );
+            await signInAuthWithEmailAndPassword(email, password );
             resetFormFields();
-
         }catch(error){
             switch(error.code){
                 case 'auth/wrong-password':
