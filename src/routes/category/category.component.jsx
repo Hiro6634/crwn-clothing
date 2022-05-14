@@ -4,16 +4,14 @@ import { Fragment, useEffect, useState } from 'react';
 
 import './category.styles.scss';
 import ProductCard from '../../components/product-card/product-card.component';
-import { selectCategoriesMap } from '../../store/categories/category.selectors';
+import { selectCategoriesMap } from '../../store/categories/category.selector';
 
 const Category = () => {
     const {category} = useParams();
-    console.log('render/re-rendering category component');
     const categoriesMap = useSelector(selectCategoriesMap);
     const [products, setProducts] = useState(categoriesMap[category]);
 
     useEffect(() => {
-        console.log('effect fired callig setProducts');
         setProducts(categoriesMap[category]);
     }, [category, categoriesMap]);
 
