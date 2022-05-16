@@ -5,7 +5,6 @@ import { USER_ACTION_TYPES } from './user.types';
 import { signInSuccess, signInFailed } from './user.action';
 
 import { getCurrentUSer, createUserDocuemntFromAuth } from '../../utils/firebase/firebase.utils';
-import { useState } from 'react';
 
 export function* getSnapshotFromUserAuth (userAuth, additionalDetails) {
     try{
