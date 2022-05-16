@@ -68,7 +68,7 @@ export const getCategoriesAndDocuments = async () => {
     // return categoryMap;
 };
  
-export const createUserDocuemntFromAuth = async (
+export const createUserDocumentFromAuth = async (
     userAuth,
     aditionalInformation = {}
     ) => {
@@ -77,7 +77,6 @@ export const createUserDocuemntFromAuth = async (
     const userDocRef = doc(db, 'users', userAuth.uid ); 
 
     const userSnapshot = await getDoc( userDocRef );
-
     if( !userSnapshot.exists()){
         const {displayName, email} = userAuth;
         const createdAt = new Date();
@@ -92,9 +91,9 @@ export const createUserDocuemntFromAuth = async (
         } catch(error){
             console.log('error creating the user', error.message);
         }
-    }
+    } 
 
-    return userDocRef;
+    return userSnapshot;
 }
 
 export const createAuthUserWithEmailAndPassword = async (email, password) => {
