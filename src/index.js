@@ -10,7 +10,7 @@ import { store, persistor } from './store/store';
 import App from './App';
 
 import reportWebVitals from './reportWebVitals';
-import { stripePromiose } from './utils/stripe/stripe.utils';
+import { stripePromise } from './utils/stripe/stripe.utils';
 import './index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,7 +19,7 @@ root.render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <BrowserRouter>
-          <Elements stripe={stripePromiose}>
+          <Elements stripe={stripePromise}>
             <App />
           </Elements>
         </BrowserRouter>
