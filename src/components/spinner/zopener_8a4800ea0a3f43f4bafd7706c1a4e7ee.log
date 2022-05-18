@@ -1,0 +1,62 @@
+[2940:30572:2022-5-17 17:1:57.13] Main Start
+[2940:30572:2022-5-17 17:1:57.13] Command line:"C:\Users\suyamaed\Documents\Desarrollo\Udemy\Complete React Developer\crwn-clothing\src\components\spinner\Zoom_cm_fns884wukkwkfx854zZ9vvrZo4_mdH9pHKR2UBVd3VqLExrH8Sn8C+aRrWC-ckA+@CfZ-45+bV8UjCD2T_k97ffc2d2467b8e72_.exe"  Instance:0x810000 Show State:1
+[2940:30572:2022-5-17 17:1:57.74] C:\
+[2940:28128:2022-5-17 17:1:57.79] [process_requst] start, url:https://wallstreetenglish.zoom.us/conf/launch
+[2940:28128:2022-5-17 17:1:57.945] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[2940:28128:2022-5-17 17:1:57.946] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[2940:28128:2022-5-17 17:1:57.946] [log_response_content] Content length (1048576 as unknown):1760 , Total read: 1760 , Error No: 0 , Status code: 200
+[2940:28128:2022-5-17 17:1:57.946] [log_response_content] header:
+[2940:28128:2022-5-17 17:1:57.946] HTTP/1.1 200 
+Date: Tue, 17 May 2022 20:01:57 GMT
+Content-Type: text/plain;charset=utf-8
+Content-Length: 1760
+Connection: keep-alive
+x-zm-trackingid: v=2.0;clid=aw1;rid=WEB_999b1453b9529e190e324f4d477fe7bc
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: data: 'self'; object-src 'none'; base-uri 'none';
+X-FRAME-OPTIONS: SAMEORIGIN
+Set-Cookie: zm_aid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_haid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: cred=885D87C193798BAED67F3EDD70056F16; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=aw1_c__Ev_lLRqT522DyVp-VV_vw; Domain=.zoom.us; Path=/; Secure; HttpOnly
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTR STP IND DEM"
+Set-Cookie: _zm_ssid=aw1_c_kF7TYhBNQSaEf_QODJvlyg; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ctaid=Z5QzyNusTRuhGX6PtNU90w.1652817717747.ef5d0cd5e52ae84587ba27f11bdbd3bb; Domain=.zoom.us; Expires=Tue, 17-May-2022 22:01:57 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_chtaid=592; Domain=.zoom.us; Expires=Tue, 17-May-2022 22:01:57 GMT; Path=/; Secure; HttpOnly
+x-zm-zoneid: VA
+Set-Cookie: _zm_mtk_guid=0d26163195754887aa1483e11cbad75a; Domain=.zoom.us; Expires=Thu, 16-May-2024 20:01:57 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+
+
+[2940:28128:2022-5-17 17:1:57.946] [process_requst] End for url:https://wallstreetenglish.zoom.us/conf/launch, return code:200, Error:0, Response content size:1760
+[2940:30572:2022-5-17 17:1:57.954] [client_has_installed_app] found path:
+[2940:30572:2022-5-17 17:1:57.954]  ***NULL-POINTER-PLACEHOLDER***
+[2940:30572:2022-5-17 17:1:57.956] [param_query_local_path] path is: C:\Users\suyamaed\AppData\Roaming\Zoom\ZoomDownload\ dir create response : 1 system error: 1008
+[2940:30572:2022-5-17 17:1:57.956] [downloader_run] State:0
+[2940:15664:2022-5-17 17:1:57.957] [process_requst] start, url:https://wallstreetenglish.zoom.us/client/latest/Installer.exe?archType=x64
+[2940:30572:2022-5-17 17:1:57.957] [client_has_installed_app] found path:
+[2940:30572:2022-5-17 17:1:57.957]  ***NULL-POINTER-PLACEHOLDER***
+[2940:15664:2022-5-17 17:1:58.700] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[2940:15664:2022-5-17 17:1:58.700] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[2940:15664:2022-5-17 17:1:58.731] [read_response_file] Status Code:200, content length: 928128, total read: 928128, error code: 0
+[2940:15664:2022-5-17 17:1:58.755] [process_requst] End for url:https://wallstreetenglish.zoom.us/client/latest/Installer.exe?archType=x64, return code:200, Error:0, Response content size:0
+[2940:30572:2022-5-17 17:1:58.776] [handle_download_job_done] Index: 1 Curr index: 1 StatusCode: 200 Error: 0 Response is Empty. 
+[2940:15664:2022-5-17 17:1:58.870] [process_requst] start, url:https://wallstreetenglish.zoom.us/client/latest/Zoom.msi?archType=x64
+[2940:15664:2022-5-17 17:1:59.551] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[2940:15664:2022-5-17 17:1:59.551] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[2940:15664:2022-5-17 17:2:0.188] [read_response_file] Status Code:200, content length: 24047549, total read: 24047549, error code: 0
+[2940:15664:2022-5-17 17:2:0.294] [process_requst] End for url:https://wallstreetenglish.zoom.us/client/latest/Zoom.msi?archType=x64, return code:200, Error:0, Response content size:0
+[2940:30572:2022-5-17 17:2:0.306] [handle_download_job_done] Index: 2 Curr index: 2 StatusCode: 200 Error: 0 Response is Empty. 
+[2940:30572:2022-5-17 17:2:0.324] C:\Users\suyamaed\AppData\Roaming\Zoom\ZoomDownload\Installer.exe
+[2940:30572:2022-5-17 17:2:0.324] ZInstaller --conf.mode=silent --ipc_wnd=592810
+[2940:30572:2022-5-17 17:2:0.601] [launch_silent_install] Installer process created, result:42
+[2940:30572:2022-5-17 17:2:12.313] C:\Users\suyamaed\AppData\Roaming\Zoom\bin\Zoom.exe
+[2940:30572:2022-5-17 17:2:12.327] client_launch_app: 
+[2940:30572:2022-5-17 17:2:12.327] C:\Users\suyamaed\AppData\Roaming\Zoom\bin\Zoom.exe
+[2940:30572:2022-5-17 17:2:12.327] "--url=zoommtg://win.launch?h.domain=wallstreetenglish.zoom.us&h.path=join&confid=dXNzPUJBeUhScmQ0NXZlU3BpWlZCZ0FLVGpFM040OVZHcFZ4cGNHTklVZ2NWcFVyeWpFOG1zeS0yel84a2lINmRCR19KSmNLLXBvekxGM2ExVXlrQ19hRTU0NDBudEpEM2N4amRGdGUtUHo1d0EudUtfZmxUS0pWdWJESlljRiZ0aWQ9MWUzNjlhNWNhMjQ4NDZjNGJlYmVkZWY0ZGI3ZmZhZTg%3D&mcv=0.92.11227.0929&stype=0&zc=0&browser=chrome&action=join&confno=94786570594"
+[2940:30572:2022-5-17 17:2:12.446] [client_launch_app] Zoom app process created, result:42
+[2940:30572:2022-5-17 17:2:12.626] Main End
