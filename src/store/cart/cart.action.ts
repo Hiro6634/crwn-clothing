@@ -1,8 +1,6 @@
 import { CatergoryItem } from "../categories/categories.types";
 import { CART_ACTION_TYPES, CartItem } from "./cart.types";
-import { createAction, withMatcher, /*Action,*/ ActionWithPayload } from "../../utils/reducer/reducer.utils";
-// import { type } from "os";
-// import { CartItems } from "../../components/cart-dropdown/cart-dropdown.styles";
+import { createAction, withMatcher, ActionWithPayload } from "../../utils/reducer/reducer.utils";
 
 
 const addCartItem = (
