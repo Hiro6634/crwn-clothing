@@ -8,6 +8,7 @@ import './categories-previes.styles.scss';
 
 const CategoriesPreview = () => {
     const {categoriesMap} = useContext(CategoriesContext);
+    console.log('categoriesMap', categoriesMap);
     return (
         <Fragment>
         {Object.keys(categoriesMap).map((title) => {
